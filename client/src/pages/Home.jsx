@@ -1,10 +1,16 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import AiTools from '../components/AiTools'
 
 const Home = () => {
+  
   return (
-    <div>
-        <h1>HOme</h1>
-    </div>
+    <>
+        < Navbar />
+        < Hero />
+        < AiTools /> 
+    </>
   )
 }
 
