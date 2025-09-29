@@ -22,7 +22,7 @@ const AiTools = () => {
         {AiToolsData.map((tool, idx) => (
           <div
             key={idx}
-            className="p-8 m-4 max-w-xs rounded-lg bg-[#FDFDFE] border border-gray-100 hover:-translate-y-1 transition-all duration-300 cursor-pointer"
+            className="p-8 m-4 max-w-xs rounded-lg bg-gray-100 border border-gray-100 hover:-translate-y-1 transition-all duration-300 cursor-pointer"
             onClick={() => user && navigate(tool.path)}
           >
             <tool.Icon
@@ -43,3 +43,4 @@ const AiTools = () => {
 };
 
 export default AiTools;
+ 

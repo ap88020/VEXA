@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="flex items-center justify-center min-h-screen px-4 sm:px-10 xl:px-20 ">
       <div className="text-center max-w-3xl px-10 py-3 border-2 border-[#710080] rounded-2xl">
         {/* Headline */}
-        <h1 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl text-gray-800 font-extrabold leading-tight">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl xl:text-5xl text-slate-700 font-extrabold leading-tight">
           Unleash Your Creativity with <br />
           <span className="text-[#710080] inline-flex items-center gap-2">
             <Sparkles className="w-7 h-7 text-[#710080] animate-pulse" />
