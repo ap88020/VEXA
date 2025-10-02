@@ -57,7 +57,7 @@ const Sidebar = ({ sidebar, setSidebar }) => {
               className={({ isActive }) =>
                 `px-3.5 py-2.5 flex items-center gap-3 rounded ${
                   isActive
-                    ? "bg-gradient-to-r from-[#3C81F6] to-[#9234EA] text-white"
+                    ? "bg-gradient-to-r from-[#9234EA] to-[#473f4e] text-white"
                     : ""
                 }`
               }
